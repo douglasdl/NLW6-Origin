@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 100%; /* 16px */
+}
+
+body {
+    background: #f3eeee;
+}
+
+#header {
+    height: 4.5rem;
+    color: red;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+}
+
+.container {
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
