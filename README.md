@@ -79,3 +79,15 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
     //"eslint.autoFixOnSave": true,
 }
 ```
+
+## Sample Images
+
+[Unsplash](https://unsplash.com/s/photos/hairdresser)
+
+## [IcoMoon App](https://icomoon.io/app/#/select)
+
+## [FlatIcon](https://www.flaticon.com/br/)
+
+## [IconFinder](https://www.iconfinder.com/)
+
+## [ReactIcons](https://react-icons.github.io/react-icons/icons?name=fi)

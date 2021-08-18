@@ -7,6 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>OriginSix</title>
 
+        <!-- Icones -->
+        <link rel="stylesheet" href="assets/fonts/style.css" />
+
         <!-- Styles -->
         <link rel="stylesheet" href="style.css" />
 
@@ -20,9 +23,24 @@
     </head>
     <body>
         <header id="header">
-            <nav class="container">
+            <nav class="container show">
                 <a class="logo" href="#">beauty<span>salon</span>.</a>
-                <div class="menu">...</div>
+                <!-- MENU -->
+                <div class="menu">
+                    <ul class="grid">
+                        <li><a class="title" href="#home">Início</a></li>
+                        <li><a class="title" href="#about">Sobre</a></li>
+                        <li><a class="title" href="#services">Serviços</a></li>
+                        <li>
+                            <a class="title" href="#testimonials"
+                                >Depoimentos</a
+                            >
+                        </li>
+                        <li><a class="title" href="#contacts">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="toggle icon-menu"></div>
+                <div class="toggle icon-close"></div>
             </nav>
         </header>
         <main>
@@ -35,7 +53,9 @@
                         />
                     </div>
                     <div class="text">
-                        <h1>Saúde natural para os seus cabelos</h1>
+                        <h2 class="title">
+                            Saúde natural para os seus cabelos
+                        </h2>
                         <p>
                             Um salão exclusivo em São Paulo, especializado em
                             tratamentos naturais.
@@ -44,18 +64,85 @@
                     </div>
                 </div>
             </section>
+
             <div class="divider-1"></div>
-            <section class="section">
-                <div class="container">outra section</div>
+
+            <section class="section" id="about">
+                <div class="container grid">
+                    <div class="image">
+                        <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="Sobre nós">
+                    </div>
+                    <div class="text">
+                        <h2 class="title">Sobre nós</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Molestiae iure reprehenderit neque doloremque
+                            consequatur soluta deleniti recusandae quo quis
+                            autem? In eius, ab consequatur atque voluptatum
+                            dolores expedita iusto rem.
+                        </p>
+                        </br>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Laboriosam odit, placeat est aut soluta quos
+                            dolores iure. Quaerat aliquam adipisci eos delectus
+                            explicabo reprehenderit voluptas voluptate, quae,
+                            accusantium qui eius.
+                        </p>
+                        </br>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Doloremque, omnis consequatur corporis eius
+                            ducimus corrupti? Impedit iure laborum dolorum
+                            cupiditate modi architecto quos provident ipsam
+                            placeat, eligendi quod obcaecati dignissimos?S
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider-2"></div>
+
+            <section class="section" id="services">
+                <div class="container grid">
+                    <header>
+                        <h2 class="title">Serviços</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam provident beatae dolorem <strong>Beuatysalon</strong> cumque vel eum ad. Repudiandae possimus optio, modi magni ipsam ullam suscipit repellendus itaque odit dolore cupiditate ad?</p>
+                    </header>
+                    <div class="cards grid">
+                        <div class="card">
+                            <i class="icon-drink"></i>
+                            <h3 class="title">Terapia capilar</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, vero quibusdam! Nobis ducimus quo ipsam sit dolorum? Non illum excepturi cum sed quia, magnam nesciunt aliquam quibusdam pariatur dolor facere.</p>
+                        </div>
+                        <div class="card">
+                            <i class="icon-scissors"></i>
+                            <h3 class="title">Cortes</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, optio fuga rerum velit tempora laudantium dolore quaerat ab architecto ullam atque eum et? Reiciendis quasi doloremque voluptas, deserunt corrupti laboriosam.</p>
+                        </div>
+                        <div class="card">
+                            <i class="icon-female"></i>
+                            <h3 class="title">Tratamentos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, possimus rem minus natus minima provident nesciunt nemo corrupti doloribus, dolores placeat corporis soluta quo ea! Sapiente earum dolorum eligendi optio!</p>
+                        </div>
+                    </div>
+                </div>
             </section>
             <div class="divider-1"></div>
-            <section class="section"></section>
-            <div class="divider-1"></div>
-            <section class="section"></section>
-            <div class="divider-1"></div>
-            <section class="section"></section>
+
+            <section class="section" id="testimonials">
+                <div class="container grid">Depoimentos</div>
+            </section>
+
+            <div class="divider-2"></div>
+
+            <section class="section" id="contacts">
+                <div class="container">Contatos</div>
+            </section>
+
             <div class="divider-1"></div>
         </main>
         <footer></footer>
+        <script src="main.js"></script>
     </body>
 </html>
