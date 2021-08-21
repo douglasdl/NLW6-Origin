@@ -10,6 +10,9 @@
         <!-- Icones -->
         <link rel="stylesheet" href="assets/fonts/style.css" />
 
+        <!-- Swiper -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
         <!-- Styles -->
         <link rel="stylesheet" href="style.css" />
 
@@ -44,6 +47,7 @@
             </nav>
         </header>
         <main>
+            <!-- HOME -->
             <section class="section" id="home">
                 <div class="container grid">
                     <div class="image">
@@ -67,6 +71,7 @@
 
             <div class="divider-1"></div>
 
+            <!-- ABOUT -->
             <section class="section" id="about">
                 <div class="container grid">
                     <div class="image">
@@ -103,6 +108,7 @@
 
             <div class="divider-2"></div>
 
+            <!-- SERVICES -->
             <section class="section" id="services">
                 <div class="container grid">
                     <header>
@@ -128,21 +134,89 @@
                     </div>
                 </div>
             </section>
+
             <div class="divider-1"></div>
 
+            <!-- TESTIMONIALS -->
             <section class="section" id="testimonials">
-                <div class="container grid">Depoimentos</div>
+                <div class="container">
+                    <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+                    <div class="testimonials swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span class="">&ldquo;</span>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, fugiat. Iste non architecto libero quaerat enim tempora nesciunt delectus facilis suscipit neque, qui, ad eius ipsam eaque impedit alias esse!
+                                    </p>
+                                    <cite>
+                                        <img src="https://randomuser.me/api/portraits/women/72.jpg" alt="">
+                                        Fulana de Tal
+                                    </cite>
+                                </blockquote>
+                            </div>
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span class="">&ldquo;</span>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, fugiat. Iste non architecto libero quaerat enim tempora nesciunt delectus facilis suscipit neque, qui, ad eius ipsam eaque impedit alias esse!
+                                    </p>
+                                    <cite>
+                                        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="">
+                                        Ciclana de Tal
+                                    </cite>
+                                </blockquote>
+                            </div>
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span class="">&ldquo;</span>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, fugiat. Iste non architecto libero quaerat enim tempora nesciunt delectus facilis suscipit neque, qui, ad eius ipsam eaque impedit alias esse!
+                                    </p>
+                                    <cite>
+                                        <img src="https://randomuser.me/api/portraits/women/70.jpg" alt="">
+                                        Beltrana de Tal
+                                    </cite>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </section>
 
             <div class="divider-2"></div>
 
+            <!-- CONTACTS -->
             <section class="section" id="contacts">
-                <div class="container">Contatos</div>
+                <div class="container grid">
+                    <div class="text">
+                        <h2 class="title">Entre em contato com a gente</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, expedita ad cumque assumenda temporibus excepturi enim eaque deleniti ut distinctio consequatur libero quisquam! Aliquid nam, accusantium impedit libero dicta quisquam.</p>
+                        <a href="https://api.whatsapp.com/send?phone=+5519982689086&text=OriginSix" class="button" target="_blank"><span class="i class="icon-whatsapp"></i> Entrar em contato</a>
+                    </div>
+
+                    <div class="links">
+                        <ul class="grid">
+                            <li><i class="icon-phone"></i>(19)98268-9086</li>
+                            <li><i class="icon-map-pin"></i>Rua Xyz, 10 - ABC</li>
+                            <li><i class="icon-mail"></i>douglas_san@hotmail.com</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
             <div class="divider-1"></div>
         </main>
         <footer></footer>
+
+        <!-- Swiper -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Scroll Reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- Main -->
         <script src="main.js"></script>
     </body>
 </html>

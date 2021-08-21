@@ -82,7 +82,7 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
 
 ## Sample Images
 
-[Unsplash](https://unsplash.com/s/photos/hairdresser)
+## [Unsplash](https://unsplash.com/s/photos/hairdresser)
 
 ## [IcoMoon App](https://icomoon.io/app/#/select)
 
@@ -91,3 +91,9 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
 ## [IconFinder](https://www.iconfinder.com/)
 
 ## [ReactIcons](https://react-icons.github.io/react-icons/icons?name=fi)
+
+## [Random User Generator](https://randomuser.me/)
+
+## [Swiper.js](https://swiperjs.com/)
+
+## [Scroll Reveal](https://scrollrevealjs.org/)
