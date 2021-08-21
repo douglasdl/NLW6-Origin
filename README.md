@@ -15,7 +15,7 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
 -   CRTL + SHIFT + P
     -   settings.json
 
-```json
+```javascript
 {
     /* Define o tema do VS Code */
     "workbench.colorTheme": "Dracula",
