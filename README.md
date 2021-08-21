@@ -17,12 +17,12 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
 
 ```json
 {
-    // Define o tema do VS Code
+    /* Define o tema do VS Code */
     "workbench.colorTheme": "Dracula",
-    //"workbench.colorTheme": "Omini",
+    /*"workbench.colorTheme": "Omini", */
     "workbench.iconTheme": "material-icon-theme",
 
-    // Configura tamanho e família da fonte
+    /* Configura tamanho e família da fonte */
     "editor.fontSize": 18,
     "editor.lineHeight": 24,
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
@@ -31,7 +31,7 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
     "workbench.editor.tabSizing": "shrink",
     "explorer.compactFolders": false,
 
-    // Aplica linhas verticais para lembrar quabra de linha em códigos muito grandes
+    /* Aplica linhas verticais para lembrar quabra de linha em códigos muito grandes */
     "editor.rulers": [80, 120],
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
@@ -44,7 +44,7 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
     "explorer.confirmDragAndDrop": false,
     "editor.accessibilitySupport": "off",
 
-    // Formatter
+    /* Formatter */
     "prettier.tabWidth": 4,
     "prettier.semi": false,
     "prettier.singleQuote": true,
@@ -75,25 +75,24 @@ Check the project online [here](https://douglasdl.github.io/NLW6-Origin/).
         "editor.defaultFormatter": "vscode.typescript-language-features"
     }
 
-    //"eslint.packageManager": "yarn",
-    //"eslint.autoFixOnSave": true,
+    /*"eslint.packageManager": "yarn", */
+    /*"eslint.autoFixOnSave": true, */
 }
 ```
 
 ## Sample Images
 
-## [Unsplash](https://unsplash.com/s/photos/hairdresser)
+-   [Unsplash](https://unsplash.com/s/photos/hairdresser)
+-   [Random User Generator](https://randomuser.me/)
 
-## [IcoMoon App](https://icomoon.io/app/#/select)
+## Icons
 
-## [FlatIcon](https://www.flaticon.com/br/)
+-   [IcoMoon App](https://icomoon.io/app/#/select)
+-   [FlatIcon](https://www.flaticon.com/br/)
+-   [IconFinder](https://www.iconfinder.com/)
+-   [ReactIcons](https://react-icons.github.io/react-icons/icons?name=fi)
 
-## [IconFinder](https://www.iconfinder.com/)
+## JavaScript Libraries
 
-## [ReactIcons](https://react-icons.github.io/react-icons/icons?name=fi)
-
-## [Random User Generator](https://randomuser.me/)
-
-## [Swiper.js](https://swiperjs.com/)
-
-## [Scroll Reveal](https://scrollrevealjs.org/)
+-   [Swiper.js](https://swiperjs.com/)
+-   [Scroll Reveal](https://scrollrevealjs.org/)
