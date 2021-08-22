@@ -13,9 +13,10 @@
 </p>
 
 <br>
-
 <p align="center">
-  <img alt="OriginSix" src=".github/preview.png" width="100%">
+    <a href="https://douglasdl.github.io/NLW6-Origin/">
+        <img alt="OriginSix" src="https://douglasdl.github.io/images/OriginSix.png" width="100%">
+    </a>
 </p>
 
 ## 🚀 Technologies
