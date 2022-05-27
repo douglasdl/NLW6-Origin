@@ -142,7 +142,7 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 
 ## 📝 Licence
 
-This project is under the MIT license. See the file [LICENSE](.github/LICENSE.md) for more details.
+This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
 
 ---
 
